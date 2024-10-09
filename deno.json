@@ -1,0 +1,11 @@
+{
+	"name": "@dector/tsx",
+	"version": "1.0.0",
+	"license": "MIT",
+	"exports": {
+		"./types": "./src/types.ts",
+		"./control": "./src/control.ts"
+	},
+	"tasks": {},
+	"imports": {}
+}
