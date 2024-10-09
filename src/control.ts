@@ -19,7 +19,7 @@
 export const tryCatch = async <T, R>(
 	fn: () => Promise<T>,
 	onError?: (e: unknown) => R,
-) => {
+): Promise<T | R> => {
 	try {
 		return await fn();
 	} catch (e: unknown) {
